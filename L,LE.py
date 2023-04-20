@@ -8,7 +8,6 @@ def ssh_input():
     ipad = input('enter ip adress')
     usern = input('enter user name')
     passw = input('enter password')
-    return(keyPath, ipad, usern, passw)
 
 def ssh_tunnel(ipad, usern, passw, keyPath):
     from paramiko import SSHClient, AutoAddPolicy
